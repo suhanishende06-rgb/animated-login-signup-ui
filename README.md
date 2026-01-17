@@ -1,2 +1,15 @@
-# animated-login-signup-ui
-A modern animated login and sign-up user interface built using HTML and advanced CSS with smooth transitions and responsive design.
+# Animated Login & Sign-Up Page
+
+An advanced animated login and sign-up page built using HTML and CSS only.
+
+## Features
+- Smooth sliding animation
+- Responsive design
+- Pure CSS (No JavaScript)
+
+## Technologies
+- HTML5
+- CSS3
+
+## Live Demo
+Enable GitHub Pages to view live
