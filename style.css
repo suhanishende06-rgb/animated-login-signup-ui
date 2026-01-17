@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 380px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+}
+
+.form-box {
+  position: relative;
+  width: 200%;
+  height: 420px;
+  display: flex;
+  transition: 0.6s ease-in-out;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.form {
+  width: 50%;
+  padding: 40px;
+  text-align: center;
+}
+
+.form h2 {
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  background: #f0f0f0;
+  border-radius: 6px;
+}
+
+.form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  background: #667eea;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form button:hover {
+  background: #764ba2;
+}
+
+.form label {
+  display: block;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #667eea;
+  cursor: pointer;
+}
+
+/* Animation Logic */
+#toggle:checked ~ .form-box {
+  transform: translateX(-50%);
+}
